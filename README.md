@@ -129,9 +129,9 @@ style-shop/
 ## Video
 
 <a href="https://drive.google.com/file/d/1hHwpgJ7dcQMuOs_PtdNo2yny1pz5j03-/preview" target="_blank">
-    <img src=""https://drive.google.com/file/d/1SsYN4Jgf5fdvvu-9LY3CJeoJC5N398sX/preview" alt="Project Demo" width="600"/>
+    <img src="projectstyle.png" alt="Project Demo" width="600"/>
 </a>
 
-A video demonstrating the functionality of the project is available [here](https://drive.google.com/file/d/1hHwpgJ7dcQMuOs_PtdNo2yny1pz5j03-/preview).
+A video demonstrating the functionality of the project is available above.
 
 ---
