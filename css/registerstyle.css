@@ -1,0 +1,87 @@
+body {
+    font-family: 'B Nazanin', sans-serif;
+    background-color: #F8F4EC;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 38%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.1);
+    font-family: "2  Kamran";
+    font-weight: bold;
+
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    width: 30%;
+    color: #402B3A;
+   font-size: 25px;
+}
+
+.form-group input {
+    width: 70%;
+    padding: 8px;
+    font-size: 16px;
+    background-color: #fff;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+input:focus {
+    border-color: #D63484;
+    box-shadow: 0 0 5px rgba(214, 52, 132, 0.5);
+    outline: none;
+}
+
+.form-buttons {
+    display: flex;
+    font-size: 22px;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.form-buttons input[type="button"],
+.form-buttons input[type="reset"] {
+    padding: 10px 20px;
+    font-weight: bold;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    background-color: #D63484;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: "2  Kamran";
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-buttons input[type="button"]:hover,
+.form-buttons input[type="reset"]:hover {
+    background-color: #402B3A;
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-buttons input[type="button"]:active,
+.form-buttons input[type="reset"]:active {
+    transform: scale(0.95);
+}

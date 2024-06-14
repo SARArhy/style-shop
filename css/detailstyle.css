@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+
+    color: #402B3A;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+
+
+    font-size: 20px;
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    border: 1px solid #D63484;
+    background-color: #FFF;
+
+
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #D63484;
+
+}
+
+table th {
+    background-color: #FF9BD2;
+    color: #402B3A;
+}
+
+
+table tr:nth-child(odd) {
+    background-color: #FF9BD2;
+}
+
+h4 {
+    color: #A91079;
+}
+
+img {
+    width: 70%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #D63484;
+}
+
+a:hover {
+    color: #402B3A;
+}
+
+.comments {
+    margin: 20px 0;
+}
+
+.comment {
+    background-color: #FF9BD2;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: #A91079;
+
+}
+
+.comment p {
+    margin: 0;
+}
+
+.comment strong {
+    color: #402B3A;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #D63484;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #D63484;
+    color: #FFF;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #402B3A;
+}

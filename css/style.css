@@ -1,0 +1,62 @@
+body {
+    font-family: "B Nazanin", sans-serif;
+    background-color: #F8F4EC;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #D63484;
+    color: white;
+    padding: 32px 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius:0px 35px ;
+
+}
+
+.nav {
+    background-color: #F8F4EC;
+    padding: 10px 0;
+    border-bottom: 2px solid #D63484;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu-item {
+    font-family:"2  Kamran";
+    display: inline;
+    margin: 0 15px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: #D63484;
+    font-weight: bold;
+}
+
+.menu-item a:hover {
+    color: #333;
+}
+
+.menu-item i {
+    font-size: 23px;
+}
+
+.logo {
+    font-family:"_MRT_Khodkar";
+    font-size: 50px;
+    font-weight: bold;
+}

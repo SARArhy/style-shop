@@ -1,0 +1,93 @@
+body {
+    font-family: 'B Nazanin', sans-serif;
+    background-color: #F8F4EC;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.1);
+    font-family: '2  Kamran', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.table-container {
+    width: 100%;
+    color: #402B3A;
+}
+
+.table-container td {
+    padding: 10px;
+    text-align: right;
+}
+
+.table-container input[type="text"],
+.table-container textarea {
+    width: calc(100% - 90px); /* Adjusted width */
+    padding: 8px;
+    font-size: 16px;
+    background-color: #fff; /* Added white background */
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+
+
+}
+
+.table-container textarea {
+    resize: none;
+}
+
+.table-container input:focus,
+.table-container textarea:focus {
+    border-color: #D63484;
+    box-shadow: 0 0 5px rgba(214, 52, 132, 0.5);
+    outline: none;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+
+}
+
+.form-buttons input[type="submit"],
+.form-buttons input[type="reset"] {
+    padding: 10px 20px;
+    font-weight: bold;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    background-color: #D63484;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    font-family: '2  Kamran', sans-serif;
+    font-size: 20px;
+
+}
+
+.form-buttons input[type="submit"]:hover,
+.form-buttons input[type="reset"]:hover {
+    background-color: #402B3A;
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-buttons input[type="submit"]:active,
+.form-buttons input[type="reset"]:active {
+    transform: scale(0.95);
+}

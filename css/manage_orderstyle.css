@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F8F4EC;
+    color: #402B3A;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+table {
+    width: 75%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "2  Kamran",sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+table, th, td {
+    border: 1px solid #D63484;
+
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+
+    color: #402B3A;
+}
+
+tr:nth-child(even) {
+    background-color: #FFF;
+}
+
+tr:nth-child(odd) {
+    background-color: #FF9BD2;
+}
+
+tr:hover {
+    background-color: #D63484;
+    color: #FFF;
+}
+
+.status-barasi {
+    background-color: #FFED00;
+    color: #402B3A;
+}
+
+.status-amadehersal {
+    background-color: #F15412;
+    color: #402B3A;
+}
+
+.status-ersalshodeh {
+    background-color: #7ECA9C;
+    color: #FFF;
+}
+
+.status-laghv {
+    background-color: #FF0000;
+    color: #402B3A;
+}
+
+.action-links a {
+    text-decoration: none;
+    color: #A91079;
+    font-weight: bold;
+}
+
+.action-links a:hover {
+    color: #402B3A;
+}
+
